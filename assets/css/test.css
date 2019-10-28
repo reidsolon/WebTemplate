@@ -1,0 +1,87 @@
+
+
+#places_carousel {
+  margin-top: 10%;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* NOTE: Change all 0.3s to any duration you are satisfied */
+/* -- Ray Solon */
+#places_carousel div {
+  position: absolute;
+  transition: transform 0.3s, left 0.3s, opacity 0.3s, z-index 0s;
+  opacity: 1;
+}
+#places_carousel div img {
+  width: 400px;
+  transition: width 0.3s;
+}
+#places_carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#places_carousel div.hideLeft img {
+  width: 300px;
+}
+#places_carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#places_carousel div.hideRight img {
+  width: 300px;
+}
+#places_carousel div.prev {
+  opacity: 0.7;
+  z-index: 5;
+  left: 30%;
+  transform: translateY(50px) translateX(-50%);
+}
+#places_carousel div.prev img {
+  width: 300px;
+}
+#places_carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(50px) translateX(-50%);
+  opacity: 0.7;
+}
+#places_carousel div.prevLeftSecond img {
+  width: 300px;
+}
+#places_carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+#places_carousel div.next {
+  opacity: 0.7;
+  z-index: 5;
+  left: 70%;
+  transform: translateY(50px) translateX(-50%);
+}
+#places_carousel div.next img {
+
+  width: 300px;
+  
+}
+#places_carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(50px) translateX(-50%);
+  opacity: 0.7;
+}
+#places_carousel div.nextRightSecond img {
+  width: 300px;
+}
+
+.buttons {
+
+  
+}
+
+/*# sourceMappingURL=test.css.map */

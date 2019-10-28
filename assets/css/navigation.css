@@ -1,0 +1,162 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*-----------*/
+
+.active-link {
+	background-color: #00a48d;
+}
+#navigation-wrapper{
+	z-index: 50;
+	font-family: mainFont;
+	position: fixed;
+	width: 100%;
+}
+
+#dropdown-tour {
+	margin-top: -1%;
+	transition: 0.3s ease-out;
+	border-radius: 0px;
+}
+
+#dropdown-tour a {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #3d3f3f;
+	transition: 0.3s;;
+	border-left: 3px solid transparent;
+}
+
+#dropdown-tour a:hover{
+	transition: 0.3s;
+	border-left: 3px solid #00a48d;
+}
+
+#contact-nav {	
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #fff;
+	width: 100%;
+	background-color: #111; 
+}
+
+
+#ul_id li {
+	padding: 15px;
+	
+	transition: 0.2s ease-in;
+	cursor: pointer;
+}
+
+#ul_id li:hover {
+	color: #111 !important;
+	background-color: #00a48d;
+	font-weight: bolder;
+	transition: 0.2s ease-out;
+}
+
+
+#navbar-brand{
+	margin-right: 20%;
+	color: #fff;
+	margin-left: 10%;
+
+}
+.navbar-brand img{
+	border-radius: 50%;
+}
+
+#number-area img{
+
+	width: 25px;
+	height: 25px;
+
+}
+
+.contact-div-2 span {
+	margin-right: 3%;
+	cursor: pointer;
+}
+
+#main-nav{
+	padding-top: 0.5% !important;
+	padding-bottom: 0.5% !important;
+	padding: 0px;
+	background-color: rgba(0,0,0,0.4) !important;
+
+}
+
+.navbar-toggler{
+	color: #fff;
+}
+
+.navbar a{
+	color: #fff;
+}
+
+#auth-area span{
+
+	color: #fff;
+
+}
+
+#auth-area a:hover{
+	margin-right: 5%;
+	color: #fff;
+
+}
+
+#auth-area span:hover {
+	cursor: pointer;
+}
+
+#navbarSupportedContent{
+	text-align: center;
+}
+
+/*---------font----------*/
+@font-face {
+  font-family: mainFont;
+  src: url(../fonts/myriad3.otf);
+}
+
+@font-face {
+	font-family: thick_mainFont;
+	src: url('../fonts/myriad.otf');
+}
+
+#return-to-top {
+	position: fixed;
+	z-index: 2000;
+	bottom: 2%;
+	cursor: pointer;
+	right: 5%;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	color: #fff;
+	display: none;
+	font-size: 30px;
+	text-align: center;
+	background-image: linear-gradient(to bottom right, #00a48d, #1677c4);
+
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+	-webkit-box-shadow: 7px 6px 21px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 6px 21px -9px rgba(0,0,0,0.75);
+	box-shadow: 7px 6px 21px -9px rgba(0,0,0,0.75);
+}
+
+#return-to-top i {
+ bottom: 15px;
+}
+
+#return-to-top:hover {
+	opacity: 0.5;
+}

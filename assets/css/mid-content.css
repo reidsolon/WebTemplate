@@ -1,0 +1,503 @@
+.carousel-indicators{
+	margin-bottom: 5%;
+}
+
+#form-area{
+	background-color: #1d242c; margin-top: -5%;
+	padding: 4%;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+}
+
+#form-area input {
+	border-radius: 0;
+	margin: auto;
+	width: 100%;	
+	font-size: 80%;
+	height: 35px;
+	text-align: left;
+	border: none;
+}
+
+#book_now {
+	width: 100%;
+	font-size: 80%;;
+	border-radius: 0;
+	text-align: center;
+	border: none;
+	padding-left: 20%;
+	padding-right: 20%;
+	color: #fff;
+}
+
+#read_more {
+	border-radius: 0px;
+}
+
+#book_now_btn2 {
+	display: none;
+}
+
+#book_now_btn2 button{
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	border: none;
+	padding-left: 20%;
+	padding-right: 20%;
+	color: #fff;
+}
+
+.form-item {
+	text-align: center;
+	margin: auto;
+}
+
+#mid-content-2{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+/*-----carousel-----*/
+#carousel-inside-div {
+	color: #fff;
+	position: absolute;
+	margin-top: 20%;
+	z-index: 40;
+	text-align: center;
+}
+
+#carousel-inside-div-2 {
+	color: rgba(255,255,255,0.3);
+	position: absolute;
+	margin-top: 16%;
+	z-index: 40;
+	text-align: center;
+}
+
+#carousel-inside-div button {
+	padding: 1%;
+	color: #fff; 
+	padding-left: 10%;
+	padding-right: 10%;
+	border: none;
+}
+
+#carousel-inside-div h1 {
+	font-family: thick_mainFont;
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+#carousel-inside-div-2 h1 {
+	font-family: thick_mainFont;
+	font-weight: bolder;
+	font-size: 150px;
+}
+
+/*------------------*/
+
+.content-2-center{
+	text-align: justify;
+	color: #fff;
+	background-image: linear-gradient(to bottom right, #00a48d, #1677c4);
+}
+
+.content-2-item {
+	padding: 5%;
+	text-align: center;
+}
+
+/*.content-2-item div {
+	background-color: red;
+
+	border-radius: 50%;
+}*/
+
+.content-2-item img{
+	border-radius: 50%;
+	width: 75px;
+	background-color: #d3d3d3;
+	padding: 15px;
+	height: 75px;
+}
+
+.text-area{
+	margin-top: 13%;
+}
+
+.text-area p{
+	margin-top: 5%;
+	line-height: 1.3;
+	font-size: 85%;
+}
+
+
+
+#offer-tour-area{
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+#offer-tour-area h1{
+	margin-top: 5%;
+}
+
+#offer-tour-area p{
+	line-height: 1.3;
+}
+
+#offer-tour-content {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.offer-item{
+	cursor: pointer;
+	border: 7px solid #f1f1f1;
+}
+
+.offer-item img{
+	transition: 0.3s;
+}
+
+.offer-item img:hover {
+
+	-webkit-box-shadow: 7px 6px 21px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 6px 21px -9px rgba(0,0,0,0.75);
+	box-shadow: 7px 6px 21px -9px rgba(0,0,0,0.75);
+	transition: 0.3s;
+	width: 98%;
+
+}
+
+.info-box{
+	color: #fff;
+	background-color: #1d242c;
+}
+
+
+
+.info-text{
+	line-height: 1.3;
+	margin: 7%;
+}
+
+.info-text p{
+	font-size: 80%;
+}
+
+.info-box-1 {
+	text-align: left;
+	width: 100%;
+	height: 250px;
+}
+
+.info-box-1 button, .info-box-2 button{
+	padding-left:15%;
+	padding-right: 15%;
+	border-radius: 0;
+	border:none;
+	transition: 0.3s;
+	color: #fff;
+
+}
+
+.info-box-1 button:hover, .info-box-2 button:hover{
+	transition: 0.3s;
+}
+
+.info-box-2 {
+	text-align: right;
+	width: 100%;
+	height: 200px;
+}
+
+
+/*4th div*/
+
+#reviews-area {
+	padding-bottom: 10%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-image: url('../imgs/waves.png');
+}
+
+.review-item {
+	background-color: red;
+}
+
+#review-area-label {
+	margin-top: 5%;
+	text-align: center;
+}
+
+
+
+
+.review-item {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+.review-item img{
+	width: 80px;
+	height: 80px;
+	border: 10px solid #fff;
+	margin-top: -15%;
+	border-radius: 50%;
+}
+
+.review-txt-area {
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 1%;
+}
+
+.review-txt-area p {
+	line-height: 1;
+	font-size: 90%;
+}
+
+.review-txt-area h5 {
+	font-size: 90%;
+}
+
+#popular-txts {
+	margin-left: 22%;
+}
+
+#popular_places img {
+	width: 50px;
+}
+
+#popular-ctrls {
+	margin-top: 15%;
+}
+
+#popular-ctrls a{
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: lighter;
+	color: #fff;
+	background-color: #1d242c;
+	margin-right: 1px;
+}
+
+
+#popular-places {
+	margin-top: 15%;
+	margin-bottom: 15%;
+	margin-left: 15%;
+}
+
+#popular-gradient {
+	color: #fff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-image: linear-gradient(to right, #00a48d, #1677c4);
+}
+
+.div-headers {
+	font-family: Arial;
+}
+
+.div-headers-bold {
+	font-family: thick_mainFont;
+}
+
+
+/* ------ contact . php------ */
+input:hover {
+	box-shadow: 0;
+	outline: 0;
+}
+#contact-float-btn {
+	transition: 0.5s;
+	border: 0;
+	position: static;
+	padding: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #00a48d;
+	color: #fff;
+	font-size: 150%;
+	-webkit-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+}
+
+#contact-float-btn:hover {
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+#contact-formdiv {
+	margin-bottom: 10%;
+	margin-top: -5%;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.2);
+}
+
+#contact-formdiv-2 {
+	padding-bottom: 5%;
+	overflow: hidden;
+	color: #fff;
+	background-image: linear-gradient(to right, #00a48d, #1677c4);
+}
+
+#inner-formdiv-2 {
+	margin-top: 10%;
+}
+
+.inner-content-2 {
+	margin: 10%;
+	margin-top: 25%;
+	font-size: 90%;
+}
+
+.inner-2-item img {
+	width: 20px;
+	height: 20px;
+}
+
+.inner-2-item {
+	font-size: 90%;
+	margin-bottom: 10%;
+}
+
+.inner-header-2 p{
+	font-size: 70%;
+}
+
+.inner-content-1 {
+	margin-right: 15%;
+	margin-top: 10%;
+}
+
+#inner-formdiv-1 {
+	margin: 5%;
+}
+
+#ignore-this {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	bottom: -15%;
+	right: -20%;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50%;
+}
+
+/*-- input boxes design----*/
+
+.group 			  { 
+  position:relative; 
+  margin-bottom:15%; 
+}
+input,select,textarea 				{
+  font-size:13px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width: 100%;
+  font-weight: bolder;
+  border:none;
+  border-bottom:1px solid #ECECEC;
+}
+input:focus, select:focus, textarea:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+.required {
+	color :red;
+}
+label 				 {
+  color:#999; 
+  font-size:15px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.label {
+	font-size:14px;
+  color:#5264AE;
+	  font-weight:normal;
+	  position:absolute;
+	  pointer-events:none;
+	  left:5px;
+	  top:-20px;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+
+/*----------------------------*/
+
+
+/*---------font----------*/
+@font-face {
+  font-family: mainFont;
+  src: url(../fonts/myriad3.otf);
+}
+
+@font-face {
+	font-family: thick_mainFont;
+	src: url('../fonts/myriad.otf');
+}
