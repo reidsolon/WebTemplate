@@ -4,7 +4,12 @@ body{
 }
 
 /*-----------*/
-
+#carousel-indicators li {
+	height: 10px;
+	width: 10px;
+	border: 0;
+	border-radius: 10px;
+}
 .active-link {
 	background-color: #00a48d;
 }
@@ -92,9 +97,6 @@ body{
 	color: #fff;
 }
 
-.navbar a{
-	color: #fff;
-}
 
 #auth-area span{
 

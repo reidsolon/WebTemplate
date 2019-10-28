@@ -111,11 +111,11 @@
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Select a Tour
 						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown-tour">
+							
+							<a class="dropdown-item" href="#">1 Day Tour</a>
+							<a class="dropdown-item" href="#">2 Days Tour</a>
+							<!-- <div class="dropdown-divider"></div> -->
 						</div>
 					 </li>
 
